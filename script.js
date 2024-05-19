@@ -1,4 +1,3 @@
-
 function firstNonRepeatedChar(str) {
     // Write your code here
     let obj = {}
@@ -11,7 +10,7 @@ function firstNonRepeatedChar(str) {
         }
     }
 
-    for (const key in object) {
+    for (const key in obj) {
         if (obj[key] == 1) {
             return key   
         }
